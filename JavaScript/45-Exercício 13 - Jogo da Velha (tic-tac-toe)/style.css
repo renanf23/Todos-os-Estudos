@@ -1,0 +1,84 @@
+h1 {
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --bg-color: #f1f5f9;
+  --border-color: #212529;
+  --font-color: #212529;
+  --primary-color: #4dff91;
+  --error-color: #ff0043;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: "Ubuntu", sans-serif;
+  color: var(--font-color);
+}
+#jogo {
+  margin-top: 50px;
+}
+#jogo section {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  width: 400px;
+}
+#secao1 {
+  margin: 0px;
+}
+
+.quadrados {
+  border: 0.125rem solid var(--border-color);
+  width: 300px;
+  height: 100px;
+  text-align: center;
+  position: relative;
+}
+.quadrados p {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 80px;
+}
+
+#quadrado1 {
+  border-top: 0px;
+  border-left: 0px;
+}
+#quadrado2 {
+  border-top: 0px;
+}
+#quadrado3 {
+  border-top: 0px;
+  border-right: 0px;
+}
+#quadrado4 {
+  border-left: 0px;
+}
+#quadrado6 {
+  border-right: 0px;
+}
+#quadrado7 {
+  border-left: 0px;
+  border-bottom: 0px;
+}
+#quadrado8 {
+  border-bottom: 0px;
+}
+#quadrado9 {
+  border-right: 0px;
+  border-bottom: 0px;
+}
+#winner h2 {
+  text-align: center;
+  color: #f1f5f9;
+}
+
+.destaque {
+  background-color: #00ff7f;
+}

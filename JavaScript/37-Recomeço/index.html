@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js"></script>
+  </head>
+  <body>
+    <h1>Adicionar jogador</h1>
+    <section>
+      <label for="posicao">Posição:</label>
+      <input type="text" name="posicao" id="posicao" />
+      <br />
+      <br />
+      <label for="nome">Nome:</label>
+      <input type="text" name="nome" id="nome" />
+      <br />
+      <br />
+      <label for="number">Número da camisa:</label>
+      <input type="number" name="number" id="number" />
+      <br />
+      <br />
+      <input type="button" value="Escalar" onclick="add()" />
+    </section>
+
+    <h1>Time:</h1>
+
+    <section id="time"></section>
+
+    <h1>Remover jogador</h1>
+    <label for="removenumber">Numero da camisa:</label>
+    <input type="number" name="removenumber" id="removenumber" />
+    <br />
+    <input type="button" value="Excluir jogador" onclick="remove()" />
+  </body>
+</html>

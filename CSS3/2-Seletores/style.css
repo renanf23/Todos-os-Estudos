@@ -1,0 +1,14 @@
+.yellow-text {
+  color: orange;
+  font-size: 20px;
+}
+.big-text {
+  text-transform: uppercase;
+}
+#europa {
+  font-size: 10px;
+  color: blue;
+}
+li {
+  color: gray;
+}

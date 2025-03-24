@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício Final - Consumindo uma API</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Exercício Final - Consumindo uma API</h1>
+    <label for="saldo">Saldo: </label><span name="saldo" id="saldo">0</span>
+    <main>
+      <div>
+        <form action="" id="form">
+          <h2>Nova transação:</h2>
+          <label for="nome">Nome:</label>
+          <br />
+          <input type="text" name="nome" id="nome" />
+          <br />
+          <label for="opcao">Tipo da transação:</label>
+          <br />
+          <select name="opcao" id="opcao">
+            <option value="negativo">Enviar</option>
+            <option value="positivo">Receber</option>
+          </select>
+
+          <br />
+          <label for="valor">Valor:</label>
+          <br />
+          <input type="number" name="valor" id="valor" />
+          <button>Enviar</button>
+        </form>
+      </div>
+
+      <div>
+        <h2>Editar uma transação</h2>
+        <form action="" id="editTransfer">
+          <label for="idForEdit">Número da transação:</label>
+          <br />
+          <input type="text" name="idForEdit" id="idForEdit" />
+          <br />
+          <label for="nome">Novo nome:</label>
+          <br />
+          <input type="text" name="novoNome" id="novoNome" />
+          <br />
+          <label for="novoopcao">Tipo da transação:</label>
+          <br />
+          <select name="novaopcao" id="novaopcao">
+            <option value="negativo">Enviar</option>
+            <option value="positivo">Receber</option>
+          </select>
+
+          <br />
+          <label for="valor">Novo Valor:</label>
+          <br />
+          <input type="number" name="novoValor" id="novoValor" />
+          <button>Atualizar</button>
+        </form>
+      </div>
+
+      <div>
+        <h2>Excluir uma transação</h2>
+        <form id="deleteTransfer">
+          <label for="idForDelete">Id da transação:</label>
+          <br />
+          <input type="text" name="idForDelete" id="idForDelete" />
+          <button>Deletar</button>
+        </form>
+      </div>
+
+      <div id="alltransfers">
+        <h2>Todas as transações</h2>
+        <section id="transfer"></section>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
+</html>

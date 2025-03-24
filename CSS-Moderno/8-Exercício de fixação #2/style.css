@@ -1,0 +1,19 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  background-color: darkgray;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  gap: 10px 15px;
+  grid-auto-rows: minmax(310px, auto);
+}
+.item {
+  border: solid 2px black;
+  background-color: white;
+  font-size: 25px;
+  padding: 10px;
+}

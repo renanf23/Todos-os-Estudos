@@ -1,0 +1,39 @@
+{
+  "transactions": [
+    {
+      "name": "Freela",
+      "amount": 500,
+      "id": "1"
+    },
+    {
+      "name": "Salário",
+      "amount": 3200,
+      "id": "3"
+    },
+    {
+      "name": "Conta de água",
+      "amount": -60,
+      "id": "4"
+    },
+    {
+      "name": "Conta de luz",
+      "amount": -150,
+      "id": "5"
+    },
+    {
+      "id": "e5f1",
+      "name": "lanche",
+      "amount": -30
+    },
+    {
+      "id": "d180",
+      "name": "dinheiro no chão ",
+      "amount": 50
+    },
+    {
+      "id": "e558",
+      "name": "Tigrinho",
+      "amount": -50
+    }
+  ]
+}

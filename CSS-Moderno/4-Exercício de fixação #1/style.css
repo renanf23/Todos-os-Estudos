@@ -1,0 +1,36 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: sans-serif;
+}
+.head {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px;
+}
+.icon {
+  width: 30px;
+}
+.logo {
+  width: 160px;
+}
+.button {
+  display: flex;
+  gap: 15px;
+}
+a {
+  text-decoration: none;
+  color: white;
+  border: solid 1px white;
+  border-radius: 5px;
+  padding: 7px;
+  font-weight: 100;
+}
+a:hover {
+  border: solid 1px rgb(255, 12, 12);
+  transition: 0.4s;
+}

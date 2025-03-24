@@ -1,0 +1,19 @@
+main {
+  display: flex;
+  flex-wrap: wrap;
+
+  max-width: 1000px;
+}
+main > div {
+  padding: 2rem;
+}
+
+#alltransfers > section {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700;
+}
+#alltransfers > section > div {
+  padding: 2rem;
+  width: 200;
+}

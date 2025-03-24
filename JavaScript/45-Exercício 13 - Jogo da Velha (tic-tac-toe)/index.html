@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="main">
+    <h1>JOGO DA VELA</h1>
+    <section id="playersInput"> 
+      <label for="jogador1">Jogador 1 :</label>
+      <input type="text" name="jogador1" id="jogador1" />
+      <label for="jogador2">Jogador 2 :</label>
+      <input type="text" name="jogador2" id="jogador2" />
+      <button id="start">Começar</button>
+    </section>
+    <section id="winner"></section>
+    <section id="jogo">
+      <section id="secao1">
+        <div id="quadrado1" class="quadrados" data-casa="1"></div>
+        <div id="quadrado2" class="quadrados" data-casa="2"></div>
+        <div id="quadrado3" class="quadrados" data-casa="3"></div>
+      </section>
+
+      <section id="secao2">
+        <div id="quadrado4" class="quadrados" data-casa="4"></div>
+        <div id="quadrado5" class="quadrados" data-casa="5"></div>
+        <div id="quadrado6" class="quadrados" data-casa="6"></div>
+      </section>
+
+      <section>
+        <div id="quadrado7" class="quadrados" data-casa="7"></div>
+        <div id="quadrado8" class="quadrados" data-casa="8"></div>
+        <div id="quadrado9" class="quadrados" data-casa="9"></div>
+      </section>
+    </section>
+    <button id="restart">Reiniciar</button>
+  </body>
+</html>

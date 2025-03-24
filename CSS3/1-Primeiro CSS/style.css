@@ -1,0 +1,12 @@
+li {
+  color: green;
+}
+h1 {
+  font-size: 50px;
+  border: 2px dashed orange;
+}
+body {
+  background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/streak2_f23384b0cb.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
