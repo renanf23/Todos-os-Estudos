@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #232323;
+  color: #fff;
+  font-family: sans-serif;
+}
+.galery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  justify-content: center;
+  align-content: center;
+  flex: 1 1 1rem;
+}
+
+img {
+  aspect-ratio: 1 / 1;
+  flex: 1 1 1rem;
+  min-width: 15rem;
+  max-height: 15rem;
+  object-fit: cover;
+}
