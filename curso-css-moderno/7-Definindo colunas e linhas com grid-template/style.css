@@ -14,17 +14,19 @@ body {
   display: grid;
   gap: 1rem;
 
-  grid-template-columns: 10rem 30rem 5rem;
-  grid-template-rows: 6rem 20rem 4rem 6rem;
+  /* grid-template-columns: 10rem 30rem 5rem; */
+  /* grid-template-columns: 1fr 4fr 1fr; */
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: 6rem 1fr 4rem 6rem;
 }
 
 .grid-item {
   background-color: #4c5caf;
   padding: 1rem;
 }
-
+/*
 .header {
-  grid-column: 1 / 4;
+  grid-column: 1/4;
   grid-row: 1;
 }
 
@@ -41,4 +43,4 @@ body {
 .footer {
   grid-column: span 3;
   grid-row: 5;
-}
+} */
