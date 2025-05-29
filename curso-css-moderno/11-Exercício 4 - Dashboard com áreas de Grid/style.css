@@ -40,6 +40,40 @@ li {
   grid-area: content;
   background-color: aliceblue;
   color: #2c2c2d;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 10rem 40rem 30rem;
+}
+.stats-section {
+  display: grid;
+  grid-template-columns: 12rem 10rem 12rem 13rem;
+  font-size: 0.75rem;
+  justify-items: center;
+  justify-content: center;
+  background-color: aquamarine;
+}
+.card {
+  justify-items: center;
+  align-items: center;
+  background-color: #fff;
+  margin: 1rem;
+  padding: 1rem;
+}
+h3 {
+  color: rgb(99, 150, 221);
+  font-size: 0.8rem;
+}
+.card > p {
+  font-weight: 700;
+}
+.chart-section {
+  grid-row: 2;
+  grid-column: span 2;
+  background-color: red;
+}
+.table-section {
+  grid-row: 3;
+  grid-column: span 2;
 }
 footer {
   display: grid;

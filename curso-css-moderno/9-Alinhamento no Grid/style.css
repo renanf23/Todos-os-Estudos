@@ -3,7 +3,7 @@ background-color: #2c2c2d;
 color: #fff;
 font-family: Arial, sans-serif;
 display: grid;
- place-content: center; //abreviação de align-content e justify-content
+place-content: center; /* abreviação de align-content e justify-content */
 min-height; 100%vh;
 
 
