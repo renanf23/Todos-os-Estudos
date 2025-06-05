@@ -116,16 +116,16 @@ h3 {
   grid-row: 3;
   grid-column: span 2;
   background-color: #fff;
-  width: 100%;
+  padding: 1rem;
 }
 .table-section table {
-  width: 100%;
+  width: 80%;
   border-collapse: collapse;
 }
 .table-section thead {
   background-color: rgb(99, 117, 221);
   color: #fff;
-  text-align: start;
+  text-align: left;
 }
 footer {
   display: grid;
