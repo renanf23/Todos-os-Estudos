@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" data-bs-theme="dark">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <main class="container">
+    <main class="container py-3">
       <h1 class="text-center">Classes Básicas do Bootstrap</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse dolores
@@ -21,7 +21,7 @@
         molestiae minima aliquam ut, quia accusamus. Accusamus at veritatis
         nihil quidem?
       </p>
-      <ul class="border border-primary border-4 rounded-5">
+      <ul class="border border-primary border-4 rounded-0 shadow-lg">
         <li>Item 1</li>
         <li>Item 2</li>
         <li class="mx-3">Item com mais margem</li>
@@ -42,9 +42,9 @@
       </div>
     </section>
 
-    <section class="text-center mx-auto w-50">
+    <section class="text-center mx-auto w-50 py-5">
       <h2>Seção Centralizada</h2>
-      <p>
+      <p class="fs-5">
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi ad
         tempore, totam quae repellat qui commodi est sapiente possimus fugiat
         porro maiores rerum eligendi quidem maxime sequi, excepturi facere
@@ -52,19 +52,23 @@
       </p>
     </section>
 
-    <section>
+    <section class="min-vh-100">
       <div>
         <h2>Utilitários de Display</h2>
-        <div>
-          <div>Item 1</div>
-          <div>Item 2</div>
-          <div>Item 3</div>
-          <div>Item 4</div>
+        <div
+          class="d-flex fs-2 align-items-center gap-3 justify-content-center"
+        >
+          <div class="bg-primary">Item 1</div>
+          <div class="bg-secondary py-3">Item 2</div>
+          <div class="bg-success">Item 3</div>
+          <div class="bg-danger">Item 4</div>
         </div>
-        <div>
-          <div>Item 1</div>
-          <div>Item 2</div>
-          <div>Item 3</div>
+        <div class="d-flex justify-content-center gap-3 fs-3 mt-5">
+          <div class="bg-primary d-md-none">Item 1: Apenas Mobile</div>
+          <div class="bg-success">Item 2: Mobile e Telas Grandes</div>
+          <div class="bg-danger d-none d-xxl-block">
+            Item 3: Apenas Telas Grandes
+          </div>
         </div>
       </div>
     </section>
