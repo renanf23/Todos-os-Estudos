@@ -1,0 +1,12 @@
+#section1 {
+  background-color: rgba(0, 0, 0, 0.7);
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/pexels-kellie-churchman-371878-1001682.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+#section1 h1 {
+  font-size: 4.5rem;
+}
