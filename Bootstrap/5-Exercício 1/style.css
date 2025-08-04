@@ -10,3 +10,20 @@
 #section1 h1 {
   font-size: 4.5rem;
 }
+
+#svg1 {
+  background-image: url(images/Maria.webp);
+  background-size: cover;
+  background-position: center;
+}
+#svg2 {
+  background-image: url(images/Carlos.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+#svg3 {
+  background-image: url(images/Ana.webp);
+  background-size: cover;
+  background-position: center;
+}
