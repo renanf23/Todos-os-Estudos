@@ -5,6 +5,7 @@
     url(images/pexels-kellie-churchman-371878-1001682.webp);
   background-size: cover;
   background-position: center;
+  height: 35rem;
 }
 
 #section1 h1 {
@@ -26,4 +27,18 @@
   background-image: url(images/Ana.webp);
   background-size: cover;
   background-position: center;
+}
+
+#section4 {
+  background-color: rgba(0, 0, 0, 0.7);
+
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/praia.webp);
+  background-size: cover;
+  background-position: center;
+  height: 35rem;
+}
+
+#section4 h1 {
+  font-size: 3.5rem;
 }
