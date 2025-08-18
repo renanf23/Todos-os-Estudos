@@ -1,0 +1,35 @@
+@use "sass:color";
+
+$color-dark: #232323;
+$color-light: #fafafa;
+$color-primary: #5f4fff;
+$color-secondary: #ff9f00;
+$color-success: #3eff7e;
+$color-danger: #ff3e3e;
+
+$spacing-xs: 0.5rem;
+$spacing-sm: 1rem;
+$spacing-md: 3rem;
+$spacing-lg: 5rem;
+
+body {
+  background-color: $color-dark;
+  color: $color-light;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  margin-top: 0.125rem;
+}
+
+section {
+  padding: $spacing-sm $spacing-sm;
+}
+
+.container {
+  padding: $spacing-sm $spacing-lg;
+
+  p {
+    margin-top: $spacing-sm;
+  }
+}
