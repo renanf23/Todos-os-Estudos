@@ -48,26 +48,24 @@
         sistema de grade com 12 colunas.
       </p>
 
-      <div class="row">
-        <div class="col col-4 bg-secondary border border-2 border-white">
-          Coluna da Esquerda (4/12)
-        </div>
-                <div class="col col-8 bg-secondary border border-2 border-white">
-          Coluna da Esquerda (8/12)
-        </div>
-
+    <div class="row">
+      <div class="col col-4 bg-secondary p-5 border">
+        Coluna da Esquerda (4/12)
       </div>
-          <div class="row">
-        <div class="col col-3 bg-secondary border border-2 border-white">
-          Sidebar (3/12)
-        </div>
-        <div class="col col-6 bg-secondary border border-2 border-white">
-          Main (6/12)
-        </div>
-        <div class="col col-3 bg-secondary border border-2 border-white">
-          Sidebar (3/12)
-        </div>
-        
+      <div class="col col-8 bg-secondary p-5 border">
+        Coluna da Direita (8/12)
+      </div>
+    </div>
+
+    <div class="row g-2">
+      <div class="col col-4 offset-3 bg-secondary p-5 border">
+        Sidebar (4/12)
+      </div>
+      <div class="col col-6 bg-secondary p-5 border">
+        Main (6/12)
+      </div>
+      <div class="col col-3 bg-secondary p-5 border">
+        Sidebar 2 (3/12)
       </div>
     </div>
 
@@ -77,6 +75,18 @@
         Possui classes modificadoras que ativam a distribuição em colunas apenas
         a partir de um breakpoint, garantindo uma melhor responsividade.
       </p>
+
+      <div class="row min-vh-100 text-white">
+      <div class="col-12 col-sm-2 col-md-4 col-lg-3 col-xl-2 bg-success">
+        Sidebar
+      </div>
+      <div class="col-12 col-sm-10 col-md-8 col-lg-7 col-xl-9 bg-primary">
+        Main Content
+      </div>
+      <div class="col-12 col-sm-12 col-lg-2 col-xl-1 bg-danger">
+        ADs Bar
+      </div>
+    </div>
     </div>
 
     <script
